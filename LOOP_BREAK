@@ -1,0 +1,9 @@
+sum = 0
+while True:
+  num = int(input("Enter your number:"))
+  if(num == 0):
+    print("Code has stopped ...")
+    break
+  sum = sum + num
+  print("The sum is:",sum)
+ 
