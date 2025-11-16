@@ -1,0 +1,8 @@
+#ASCENDING SORT:
+mylist = [4,3,2,1]
+mylist.sort()
+print(mylist)
+#DESCENDING SORT:
+mylist2 = [1,2,3,4]
+mylist2.sort(reverse = True)
+print(mylist2)
