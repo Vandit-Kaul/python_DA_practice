@@ -1,0 +1,13 @@
+#Nested if:
+
+a = int(input("Enter the number:"))
+
+if(a > 0):
+  if(a % 2 == 0):
+    print("Positive and even")
+  else:
+    print("Positive and odd")
+elif(a<0):
+  print("Negative")
+else:
+  print("Zero")
